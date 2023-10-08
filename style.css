@@ -1,0 +1,234 @@
+body {
+    background-color: black;
+    
+}
+
+
+
+
+
+.glass-container {
+    background: rgba(0, 0, 0, 0.027);
+    box-shadow: 10px 15px 30px 0 rgba(152, 61, 61, 0.89);
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 770px;
+    /*background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px; 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px; */
+}
+
+
+
+
+
+
+
+
+.gqrc{
+    color: white;
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.input{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+.etou{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-80%, -850%);
+    max-width: 190px;
+    height: 44px;
+    background-color: #000000;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid rgba(129, 2, 2, 0.534);
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+.etou:hover, .etou:focus, .etou:hover .etou {
+    outline: none;
+    border-color: rgb(129, 2, 2);
+  }
+.etou-group:hover .label, .etou:focus {
+    color: rgb(129, 2, 2);
+}
+
+
+
+
+
+
+
+.gbtn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-330%, -990%);
+    width: 6.5em;
+    height: 2.3em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 490px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: black;
+    border: 2px solid rgb(34, 117, 211);
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+   .dbtn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(30%, -737%);
+    width: 6.5em;
+    height: 2.3em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: black;
+    border: 2px solid rgb(129, 2, 2);
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+
+.qrr{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -150%);
+}
+
+
+
+
+
+
+
+.btn2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 45%;
+    right: 50%;
+    transform: translate(-90%, 200%);
+    width: 6.5em;
+    height: 2.3em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    border: 2px solid rgb(34, 117, 211);
+}
+
+
+
+
+html, body {
+    min-width: 710px;
+    min-height: 600px;
+  }
+  
